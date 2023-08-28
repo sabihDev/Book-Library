@@ -14,41 +14,42 @@ html {
 
 body {
   line-height: 1.6;
+  letter-spacing: 1px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Typography */
 
-h1{
-    font-size: 2.57rem;
-    height: 7vw;
-    padding-bottom: 0;
-    margin-bottom: 0;
+h1 {
+  font-size: 2.57rem;
+  height: 7vw;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-h2{
-    font-size: 2.35rem;
+h2 {
+  font-size: 2.35rem;
 }
 
-h3{
-    font-size: 2.15rem;
+h3 {
+  font-size: 2.15rem;
 }
 
 /* Buttons */
 
-.btn{
-    padding: 1rem;
-    width: 6vw;
-    border: none;
-    cursor: pointer;
-    outline: none;
+.btn {
+  padding: 1rem;
+  width: 6vw;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
 
-.btn--primary{
-    font-size: 2rem;
-    background: darkcyan;
-    color: white;
-    border-radius: 12px;
+.btn--primary {
+  font-size: 2rem;
+  background: darkcyan;
+  color: white;
+  border-radius: 12px;
 }
 
 /* Add Book Container */
@@ -57,10 +58,37 @@ h3{
   width: 100vw;
   display: grid;
   place-content: center;
+  margin-left: 4rem;
 }
 
 .center-grid {
   width: 100vw;
   display: grid;
   place-content: center;
+}
+
+/* Inputs */
+
+.input {
+  border: none;
+  outline: 0;
+  font-size: 2rem;
+}
+
+.input--primary {
+  background: darkcyan;
+  color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+
+/* Utilites */
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.special{
+  margin-left: 13rem;
 }
